@@ -1,0 +1,44 @@
+
+<body class="img-main img-fluid">
+<div class="container mtop ">
+     <div class="row justify-content-center">
+    <div class="col-lg-6">
+        <div class="card color-b p-5">
+            <div class="card-header color-b text-center display-6">
+                <img src="/img/logoe.png" alt="Logo Ethereum" class=" img-fluid rounded-circle" style="width:110px">
+            </div>
+            <div class="card-body">
+                <form action="/users/signup" method="POST">
+                <div class="row">
+                     <div class=" col-md form-group">
+                        <input type="text" class="form-control" name="name" placeholder="Name" value="{{name}}">
+                    </div>
+                    <div class="col-md form-group">
+                        <input type="email" class="form-control" name="email" placeholder="Email" value="{{email}}">
+                    </div>
+
+                </div>
+                    <div class="form-group mt-3">
+                        <input type="password" class="form-control" name="password" placeholder="Password" >
+                    </div>
+                    <div class="form-group mt-3">
+                        <input type="password" class="form-control" name="confirm_password"
+                            placeholder="Confirm password">
+                    </div>
+                    <div class="d-grid">
+                        <button class="btn btn-primary btn-block mt-3">
+                        Registrar
+                    </button>
+
+                    </div>
+                    
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+   </body>
+

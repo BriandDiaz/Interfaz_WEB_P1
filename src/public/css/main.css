@@ -1,0 +1,17 @@
+.img-main{
+    background-image: url('/img/chain.jpg');
+     background-repeat: no-repeat; 
+      width:100%;
+       height:100%;
+}
+.mtop{
+    margin-top: 80px;
+}
+
+.color-b{
+    background-color: #34495E;
+}
+
+.color-t{
+    color: #FDFEFE ;
+}
