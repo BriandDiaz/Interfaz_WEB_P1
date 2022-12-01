@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlockSafe | Dashboard</title>
+    <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./main.css" />
+    <!-- Google icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+
+<body class="bg-dark">
+  
+<div class="cointaner bg-info rounded-3">
+<h1 class="display-4 text-center text-black">Dispositivos</h1>
+</div>
+    <div class="container-fluid mt-4">
+      <div class="row">
+        <div class="col-md-4 ">
+          <form id="addForm" class="card card-body color-b mb-4 ">
+            <h4 class="display-6 color-t text-center">Agregar dispositivo:</h4> <hr>
+
+            <label class="color-t" for="id">ID:</label>
+            <input
+              type="number"
+              id="id"
+              class="form-control  rounded-0 "
+              placeholder="id del dispositivo"
+              autofocus
+            />
+            <label class=" mt-4 color-t" for="nombre">Nombre:</label>
+            <input
+              type="text"
+              id="nombre"
+              class="form-control  rounded-0  "
+              placeholder="Nombre del dispositivo"
+              autofocus
+            />
+            <button class=" mt-5 btn btn-success">Añadir dispositivo</button>
+          </form>
+        </div>
+
+        <div class="col-lg-8">
+          <div class="card card-body color-b  mb-4">
+            <p class="color-t display-6 text-center">Dispositivos agregados:</p><hr>
+            <table class="table table-borderless">
+              <tr class="bg-info">
+                <th>Id</th>
+                <th>Nombre dispositivo</th>
+                <th>Estado</th>
+                <th>Agregado en:</th>
+              </tr>
+              <tbody id="myTable"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+        <!-- Fin del contenedor de la pagina web-->
+    </div>
+
+    <!-- <script src="/libs/web3/dist/web3.min.js"></script> -->
+    <script src="/libs/@truffle\contract\browser-dist\truffle-contract.min.js"></script>
+    <script src="./app.js"></script>
+    <script src="./ui.js"></script>
+  </body>
+</html>
+
+{{!-- <body class="">
+  
+
+  <h1 class="text-center">Dispositivos:</h1>
+<div class="container-fluid mtop">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card color-b ">
+        <div class="card-header color-b color-t display-6 text-center">
+          Agregar Dispositivos:
+        </div>
+        <div class="card-body m-3">
+          <form action="">
+            <div class="form-group ">
+              <label class="color-t" for="id">ID:</label><br>
+              <input class="mx-auto" type="number" id="id" name="id">
+            </div>
+
+            <div class="form-group ">
+              <label class="color-t mt-3" for="name">Nombre:</label><br>
+              <input class="mx-auto" type="text" id="name" name="name">
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-8">
+      <div class="card ">
+        <div class="card-header color-b color-t ">
+          Dispositivos
+        </div>
+        <div class="card-body">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>ID:</th>
+                <th>Nombre:</th>
+                <th>Estado:</th>
+                <th>Agregado En:</th>
+              </tr>
+            </thead>
+            <tbody>
+               <tr>
+                <td>11111:</th>
+                <td>Arduino:</th>
+                <td>Activo:</th>
+                <td>5/5/2022:</th>
+              </tr>
+                <tr>
+                <td>11111:</th>
+                <td>Arduino:</th>
+                <td>Activo:</th>
+                <td>5/5/2022:</th>
+              </tr>
+                 <tr>
+                <td>11111:</th>
+                <td>Arduino:</th>
+                <td>Activo:</th>
+                <td>5/5/2022:</th>
+              </tr>
+               <tr>
+                <td>11111:</th>
+                <td>Arduino:</th>
+                <td>Activo:</th>
+                <td>5/5/2022:</th>
+              </tr>
+            </tbody>
+
+          </table>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+</body> --}}

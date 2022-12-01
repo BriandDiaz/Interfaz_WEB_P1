@@ -5,6 +5,6 @@ dashboardCtrl.renderDashboard = (req, res)=>{
 }
 
 dashboardCtrl.renderDevicesForm = (req, res) => {
-    res.render('dashboard/new-device')
+    res.render('dashboard/device');
 }
 module.exports = dashboardCtrl;
